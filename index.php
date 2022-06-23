@@ -41,3 +41,47 @@ $name = 'Platzi';
 
 echo $$app //Platzi
 echo $app //name
+
+
+//Bloques de codigos sencillos en Php
+if(condition)
+{
+    #code... 
+}elseif(condition)
+{
+    #code... 
+}else
+{
+   #code... 
+}
+
+swich ($login){
+    case true;
+        #code...
+        break;    
+    case false;
+        #code...
+        break;    
+    default;
+        #code...
+        break;
+}
+
+foreach($datos as $row){
+
+}
+$a = 0;
+
+while ($a <= 10)
+{
+    $a++;
+}
+
+do
+{
+    #code...
+}while($a <= 10);
+
+for($i = 0; $i < 10;, $i++){
+    # code...
+}
