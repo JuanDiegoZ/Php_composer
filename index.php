@@ -1,5 +1,5 @@
 <?php
-
+/*
 class Answer
 {
     protected $clients = []; //My note
@@ -85,3 +85,6 @@ do
 for($i = 0; $i < 10;, $i++){
     # code...
 }
+*/
+    require __DIR__ .'vendor/autoload.php';
+    echo Text\format::upperText('hola');
