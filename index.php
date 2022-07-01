@@ -86,5 +86,5 @@ for($i = 0; $i < 10;, $i++){
     # code...
 }
 */
-    require __DIR__ .'vendor/autoload.php';
+    require __DIR__ .'vendorautoload.php';
     echo Text\format::upperText('hola');
